@@ -1,0 +1,11 @@
+{
+  "name": "CollaborativeDrawing",
+  "description": "Collaborative Drawing with HTML5 Canvas",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.2",
+    "socket.io": "1.0",
+    "node-static": "0.7.3"
+  }
+}

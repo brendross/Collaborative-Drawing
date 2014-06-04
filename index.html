@@ -1,0 +1,21 @@
+<head>
+	<title>HTML Collaborative Drawing</title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+	<script src="/public/javascripts/script.js"></script>
+
+
+	<!-- The stylesheets -->
+    <link rel="stylesheet" href="/public/stylesheets/styles.css" />
+</head>
+<body>
+	<div id="cursors"></div>
+
+	<canvas id="paper" width="1900" height="1000"></canvas>
+
+	<hgroup id="instructions">
+		<h1>Draw anywhere!</h1>
+		<h2>You will see everyone else who's doing the same.</h2>
+		<h3>Tip: if the page gets dirty, simply reload the page</h3>
+	</hgroup>
+</body>
